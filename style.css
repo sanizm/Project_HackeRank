@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  height: 3.75rem;
+  background-color: #39424e;
+}
+
+.container {
+  max-width: 77.5rem;
+  margin: auto;
+  padding: 0 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .container .container-one,
+.container .container-one .list-one,
+.container .container-two .list-two {
+  height: 3.75rem;
+  list-style: none;
+}
+
+.container .container-one .list-one,
+.container .container-two .list-two {
+  display: flex;
+  align-items: center;
+}
+
+.container .container-one .list-one li {
+  margin-right: 1.875rem;
+}
+
+.container .container-one .list-one a {
+  text-decoration: none;
+  color: #b7c9cc;
+  font-weight: 700;
+  font-size: 0.875rem;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  font-stretch: 100%;
+  text-align: left;
+  text-size-adjust: 100%;
+  align-self: center;
+}
+
+.container .container-one .list-one a:hover {
+  color: #fff;
+}
+
+.container .container-one .list-one li:nth-child(2) a span {
+  color: #fff;
+  border-bottom: 5px solid #1ba94c;
+  display: inline-block;
+  height: 3.75rem;
+}
+
+.list-one .logo-img .logo-img-small {
+  margin-bottom: 0;
+  height: 20px;
+  vertical-align: middle;
+}
+
+/* styling list item 2 */
+.Log-In {
+  display: inline-block;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 0.1875rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.875rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 1px 2px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+  border-width: 0.0625rem;
+  background-color: rgb(48, 55, 65);
+  border-color: rgb(37, 42, 50);
+  background-image: linear-gradient(rgb(57, 66, 78), rgb(48, 55, 65));
+  text-align: center;
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+}
+
+.Sign-Up {
+  margin-left: 0.9375rem;
+  display: inline-block;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 0.1875rem;
+  border-width: 0.0625rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border-color: #088837, #088837, #007827;
+  background-color: #29b35b;
+  background-image: linear-gradient(180deg, #2ec866, #29b35b);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%),
+    inset 0 1px 1px hsl(0deg 0% 100% / 10%),
+    inset 0 -1px 4px rgb(32 138 70 / 30%);
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  border-style: outset;
+}
+
+.H-D {
+  font-weight: 400;
+  margin-right: 0.9375rem;
+  color: #f3f7f7;
+  font-size: 0.8125rem;
+}
+
+.container-two .list-two li:first-child i {
+  display: inline-block;
+  width: 15px;
+  color: rgb(115, 143, 147);
+}
+.container-two .list-two input {
+  display: inline-block;
+  padding: 7px 10px 7px 10px;
+  height: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  background: none;
+  width: 90px;
+  border-style: none;
+  text-align: left;
+}
+
+.container-two .list-two input::placeholder {
+  color: rgb(115, 143, 147);
+}
+
+/* Heading */
+
+.heading {
+  background: #fff;
+  height: 6.00975;
+  outline-color: rgb(14, 20, 30);
+}
+.header-container {
+  max-width: 77.5rem;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+.header-container p {
+  color: rgb(115, 143, 147);
+  font-size: 0.8125rem;
+}
+
+.header-container h1 {
+  font-size: 1.625rem;
+  font-stretch: 100%;
+  font-weight: 700;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.main-content {
+  border-color: rgb(14, 20, 30);
+  border-width: 0;
+  font-weight: 400;
+  background-color: #f3f7f7;
+  z-index: -10;
+}
+
+.main-container {
+  max-width: 77.5rem;
+  margin: auto;
+  padding-left: 1.25rem;
+  padding-top: 1.875rem;
+  padding-right: 1.25rem;
+  padding-bottom: 3.75rem;
+}
+
+.main-content .main-container .first-container .header h2 {
+  margin-bottom: 1.875rem;
+}
+
+.main-content .main-container .first-container .header h2 {
+  font-size: 1.125rem;
+}
+
+.main-content .main-container .first-container .skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+
+.skills .card {
+  box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 11.4375rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.875rem;
+}
+
+.skills .card img {
+  position: absolute;
+  right: -10%;
+  bottom: 0;
+  height: 85%;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.skills .card {
+  text-decoration: none;
+}
+
+.skills .card-one,
+.skills .card-two {
+  background-color: #fff;
+}
+
+.skills .card-one h3 span,
+.skills .card-two h3 span {
+  font-size: 1.625rem;
+  font-weight: bold;
+  color: #0e141e;
+  font-stretch: 100%;
+  padding-right: 0.3125rem;
+  vertical-align: middle;
+}
+
+.skills .card-one h3 svg,
+.skills .card-two h3 svg {
+  display: inline-block;
+  font-size: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+.skills .card h3 div {
+  display: inline-block;
+}
+
+.space {
+  display: inline-block;
+  width: 1rem;
+}
+
+.green {
+  height: auto;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 1px solid #1ba94c;
+  color: #1ba94c;
+  background-color: transparent;
+  padding: 0.3125rem;
+  margin-top: 1.25rem;
+}
+
+.card-three {
+  background-color: rgb(14, 20, 30);
+}
+
+.card-three .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  color: #fff;
+}
+
+.card-three .card-content h2 {
+  font-size: 1.125rem;
+}
+
+.card-three .card-content p {
+  font-size: 0.8125rem;
+}
+
+.card-three .card-content button {
+  background-color: #fff;
+  display: block;
+  height: 2.5rem;
+  width: 10.6875rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  border-color: rgb(57, 66, 78);
+  font-size: 0.8799rem;
+  color: #39424e;
+  box-shadow: 0 3px 10px 0 rgba (0, 0, 0, 0.1);
+  padding: 0.0625rem 1.25rem;
+  cursor: pointer;
+}
+
+/* Second Container */
+
+.second-header,
+.third-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.second-header h2,
+.third-header h2 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  color: #0e141e;
+  border-color: rgb(14, 20, 30);
+  outline-color: rgb(14, 20, 30);
+  z-index: 10;
+}
+
+.second-container {
+  display: flex;
+  margin: -1.875rem;
+}
+.second-container .Interview-card,
+.second-container .skill-card {
+  width: calc(50% 3.75rem);
+  height: 16.25rem;
+  margin: 1.875rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 16px 0px;
+}
+
+.second-container .cover {
+  width: calc(50% 3.75rem);
+  border-color: rgb(14, 20, 30);
+  color: rgb(14, 20, 30);
+  font-weight: 400;
+  height: 16.25rem;
+  padding: 1.875rem;
+}
+
+.second-container .light-color {
+  color: rgb(115, 143, 147);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1.125rem;
+  opacity: 0.75;
+  line-height: 1.4;
+  letter-spacing: 0.6px;
+}
+
+.second-container .common-heading {
+  margin-bottom: 0.9375rem;
+  color: #39424e;
+  font-size: 1.625rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-stretch: 100%;
+  outline-color: rgb(14, 20, 30);
+}
+
+.second-container .light-p {
+  color: rgb(115, 143, 147);
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.second-container .primary {
+  display: inline-block;
+  background-color: rgb(27, 169, 76);
+  border-radius: 2px;
+  box-shadow: rgba(27, 169, 76, 0.5) 0px 4px 12px 0px;
+  color: #fff;
+  font-size: 1.125rem;
+  height: 3.5rem;
+  min-width: 17rem;
+  padding: 0 1.25rem;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 1.25rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+.second-container .primary div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.second-container .white {
+  color: rgb(27, 169, 76);
+  border: 1px solid rgb(27, 169, 76);
+  background-color: transparent;
+  box-shadow: none;
+  font-weight: 700;
+}
+
+/* Third container */
+
+.third-container {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 16px 0px;
+}
+
+.third-container ul {
+  list-style: none;
+  border-color: rgb(14, 20, 30);
+  font-weight: 400;
+  font-size: 1rem;
+  height: 19.0625rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.third-container ul li {
+  border-color: rgb(14, 20, 30);
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  background-color: #fff;
+  border-right-color: rgb(231, 238, 239);
+  border-bottom-color: rgb(243, 247, 247);
+  font-size: 1.125rem;
+  line-height: 3.75rem;
+  height: 3.8125rem;
+  text-align: left;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  flex-basis: calc(33.33% - 1px);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.third-container ul li div {
+  display: flex;
+  align-items: center;
+  border-color: rgb(85, 26, 139);
+  font-weight: 700;
+}
+
+.track-name {
+  color: rgb(57, 66, 78);
+  padding-left: 10px;
+  font-stretch: 100%;
+}
+
+.third-container ul li:hover {
+  cursor: pointer;
+  box-shadow: rgba(14, 9, 9, 0.2) 0 2px 16px 0;
+}
+
+.Fourth-container {
+  margin-top: 60px;
+  margin-left: -30px;
+}
+
+.tutorial-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tutorial-box {
+  margin: 1.875rem;
+  padding: 1.875rem;
+  height: 220px;
+  width: calc(33.33% - 60px);
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 16px 0px;
+}
+.third-header .tutorial {
+  margin-left: 30px;
+}
+
+.tutorial-box div h2 {
+  margin-bottom: 20px;
+  color: rgb(115, 143, 147);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.tutorial-content h3 {
+  margin-bottom: 20px;
+  color: rgb(57, 66, 78);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25.2px;
+}
+
+.tutorial-content div {
+  margin-bottom: 20px;
+  color: rgb(115, 143, 147);
+  font-size: 13px;
+}
+
+.tutorial-content p {
+  color: rgb(27, 169, 76);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+footer {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+
+  margin: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(9, 123, 191);
+  font-size: 14px;
+}
+
+footer .footer-item:after {
+  margin: 0 5px;
+  color: #b7c9cc;
+  content: "|";
+  height: 19px;
+  width: 7.71875px;
+}
